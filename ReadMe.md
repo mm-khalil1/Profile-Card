@@ -1,4 +1,4 @@
-# Mahmoud Khalil - Data Scientist
+# Mahmoud Khalil
 
 ## Introduction
 This project is a personal profile page for Mahmoud Khalil, a data scientist. It consists of an HTML file, a CSS file, and a profile picture. The HTML file contains the structure of the page, the CSS file contains the styling, and the profile picture is used to display Mahmoud Khalil's image.
