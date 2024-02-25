@@ -1,0 +1,118 @@
+:root {
+  --color-white: #fff;
+  --color-grey: #c4c4c4;
+}
+
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* End CSS Reset */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5f7;
+  background-image: radial-gradient(#444cf7 0.6000000000000001px, #e5e5f7 0.6000000000000001px);
+  background-size: 1.2rem 1.2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  min-width: 35rem;
+  max-width: 60rem;
+  overflow: hidden;
+  background-color: var(--color-white);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.top {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 10px),
+    repeating-linear-gradient(#444cf755, #444cf7);
+  height: 10rem;
+}
+
+.middle {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  padding: 1rem 0;
+}
+
+.personal-pic {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 0.4rem solid var(--color-white);
+}
+
+.bottom {
+  display: flex;
+  border-top: 0.1rem solid var(--color-grey);
+}
+
+.column {
+  flex: 1;
+  padding: 1.8rem 1.5rem;
+  text-align: center;
+  border-right: 0.1rem solid var(--color-grey);
+}
+
+.column:last-child {
+  border-right: none;
+}
+
+.icon-pic {
+  width: 2rem;
+  height: 2rem;
+}
+
+.username {
+  font-size: 1.4rem;
+}
