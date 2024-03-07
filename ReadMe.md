@@ -18,6 +18,7 @@ This project is a webpage for my profile card.
 ## Usage
 
 To view the webpage, simply open the `index.html` file in a web browser.
+Or, through this [link](https://mm-khalil1.github.io/my-Profile-Card/)
 
 ## Author
 
